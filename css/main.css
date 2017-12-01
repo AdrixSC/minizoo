@@ -24,31 +24,19 @@ select {
 }
 
 
-/*img {
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-}*/
+.sin-filtro {
+  filter: none;
+}
 
-.negative-colors {
-    filter: invert(.8);
-    -ms-filter: invert(.8);
-    -moz-filter: invert(.8);
-    -o-filter: invert (.8);
-    -webkit-filter: invert(.8);
+.invert {
+    filter: invert(100%);
+
 }
 
 .sepia {
-    filter: invert(1);
-    -ms-filter: invert(1);
-    -moz-filter: invert(1);
-    -o-filter: invert (1);
-    -webkit-filter: invert(1);
+    filter: sepia(100%);
 }
 
 .white-black {
-    filter: invert(100%);
-    -ms-filter: invert(100%);
-    -moz-filter: invert(100%);
-    -o-filter: invert (100%);
-    -webkit-filter: invert(100%);
+    filter: grayscale(100%);
 }
